@@ -1,0 +1,13 @@
+First, install pip
+If you don’t have pip, you’ll need to obtain it first:
+
+pip install opencv
+$ wget https://bootstrap.pypa.io/get-pip.py
+$ sudo python3 get-pip.py
+Option A: Install OpenCV to your Ubuntu system with pip
+I wouldn’t recommend this method unless you have a particular use case where you don’t want isolated, independent Python environments.
+
+Let’s pip install opencv-contrib-python on our system:
+
+pip install opencv
+$ sudo pip install opencv-contrib-python
